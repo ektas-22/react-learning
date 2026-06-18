@@ -1,9 +1,13 @@
 import './App.css'
-// import TravelJournal from './components/travel-journal/TravelJournal'
-// import MainContent from './components/MainContent'
-import Contact from './components/props-example/Contact'
-// import RandomHousekeeping from './components/second/RandomHousekeeping'
+
 // import Page from './components/first/Page'
+// import MainContent from './components/MainContent'
+// import Contact from './components/props-example/Contact'
+// import JokesPage from './components/challenge/JokesPage'
+// import RandomHousekeeping from './components/second/RandomHousekeeping'
+// import TravelJournal from './components/react-state/travel-journal/TravelJournal'
+// import ChefClaude from './components/react-state/chef-claude/ChefClaude'
+import Challenge2 from './components/react-state/challenge/Challenge2'
 
 function App() {
     return (
@@ -12,7 +16,10 @@ function App() {
         {/* <Page/> */}
         {/* <RandomHousekeeping/> */}
         {/* <TravelJournal/> */}
-        <Contact/>
+        {/* <Contact/> */}
+        {/* <JokesPage/> */}
+        {/* <ChefClaude/> */}
+        <Challenge2/>
         </div>
     )
 }

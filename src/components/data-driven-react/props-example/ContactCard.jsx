@@ -1,21 +1,20 @@
 import '../../styles/contactcard.css';
 
-function ContactCard() {
+function ContactCard(props) {
+    // console.log(props);
   return (
-    <div className="contacts">
       <article className="contact-card">
-        <img src="src\assets\whiskerson.jpg" alt="Photo of Mr. Whiskerson" />
-        <h3>Mr. Whiskerson</h3>
+        <img src={props.img} alt="Cat Image"/>
+        <h3>{name}</h3>
         <div className="info-group">
           <img src="src\assets\phone.png" alt="phone icon" />
-          <p>(212) 555-1234</p>
+          <p>{props.phone}</p>
         </div>
         <div className="info-group">
           <img src="src\assets\mail.png" alt="mail icon" />
-          <p>mr.whiskaz@catnap.meow</p>
+          <p>{props.email}</p>
         </div>
       </article>
-    </div>
   );
 }
 
