@@ -3,11 +3,12 @@ import './App.css'
 // import Page from './components/first/Page'
 // import MainContent from './components/MainContent'
 // import Contact from './components/props-example/Contact'
-// import JokesPage from './components/challenge/JokesPage'
+import JokesPage from './components/data-driven-react/challenge/JokesPage'
 // import RandomHousekeeping from './components/second/RandomHousekeeping'
 // import TravelJournal from './components/react-state/travel-journal/TravelJournal'
 // import ChefClaude from './components/react-state/chef-claude/ChefClaude'
-import Challenge2 from './components/react-state/challenge/Challenge2'
+// import Exercise2 from './components/react-state/challenge/Exercise2'
+// import Challenge3 from './components/react-state/challenge/Challenge3
 
 function App() {
     return (
@@ -17,9 +18,10 @@ function App() {
         {/* <RandomHousekeeping/> */}
         {/* <TravelJournal/> */}
         {/* <Contact/> */}
-        {/* <JokesPage/> */}
+        <JokesPage/>
         {/* <ChefClaude/> */}
-        <Challenge2/>
+        {/* <Challenge3/> */}
+
         </div>
     )
 }
