@@ -2,13 +2,13 @@ import './App.css'
 
 // import Page from './components/first/Page'
 // import MainContent from './components/MainContent'
-// import Contact from './components/props-example/Contact'
-import JokesPage from './components/data-driven-react/challenge/JokesPage'
+// import JokesPage from './components/data-driven-react/challenge/JokesPage'
 // import RandomHousekeeping from './components/second/RandomHousekeeping'
 // import TravelJournal from './components/react-state/travel-journal/TravelJournal'
+// import Contact from './components/data-driven-react/props-example/Contact'
 // import ChefClaude from './components/react-state/chef-claude/ChefClaude'
-// import Exercise2 from './components/react-state/challenge/Exercise2'
-// import Challenge3 from './components/react-state/challenge/Challenge3
+// import Exercise3 from './components/react-state/challenge/Exercise3'
+import Challenge4 from './components/react-state/challenge/Challenge4'
 
 function App() {
     return (
@@ -18,10 +18,10 @@ function App() {
         {/* <RandomHousekeeping/> */}
         {/* <TravelJournal/> */}
         {/* <Contact/> */}
-        <JokesPage/>
+        {/* <JokesPage/> */}
         {/* <ChefClaude/> */}
-        {/* <Challenge3/> */}
-
+        <Challenge4/>
+        {/* <Exercise3/> */}
         </div>
     )
 }
