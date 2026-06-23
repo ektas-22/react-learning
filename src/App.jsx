@@ -1,6 +1,4 @@
 import './App.css'
-import Exercise from './components/side effects/challenge/Exercise'
-
 
 // import Page from './components/first/Page'
 // import MainContent from './components/MainContent'
@@ -25,8 +23,7 @@ function App() {
         {/* <ChefClaude/> */}
         {/* <Challenge4/> */}
         {/* <Exercise3/> */}
-        {/* <MemeGenerator/> */}
-        <Exercise/>
+        <MemeGenerator/>
         </div>
     )
 }
