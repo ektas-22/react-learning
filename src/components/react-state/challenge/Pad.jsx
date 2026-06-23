@@ -1,18 +1,18 @@
-import React from "react";
+// import React from "react";
 
 function Pad(props) {
-//   const [intialState, setInitialState] = React.useState(props.visible);
+  //   const [intialState, setInitialState] = React.useState(props.visible);
 
-//   function toggleButton() {
-//     setInitialState((prevState) => !prevState);
-//   }
+  //   function toggleButton() {
+  //     setInitialState((prevState) => !prevState);
+  //   }
 
   return (
     <div>
       <button
         style={{ backgroundColor: props.color }}
-        className={props.visible ? "on" : ""}
-        onClick={props.clickHandler}
+        className={props.on ? "on" : undefined}
+        onClick={() => props.clickHandler(props.id)}
       ></button>
     </div>
   );
